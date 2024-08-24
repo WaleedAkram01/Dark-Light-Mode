@@ -1,0 +1,81 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ced8ff;
+}
+.navbar {
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  width: 150px;
+  height: 70px;
+}
+
+.link-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link-items li {
+  list-style: none;
+}
+.toogle-icon {
+  width: 60px;
+}
+.search-box {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.search-box input {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 6px;
+  font-size: 14px;
+}
+.search-box input::placeholder {
+  color: #fff;
+}
+.search-box img {
+  height: 20px;
+  width: 20px;
+}
+
+/******** To Change The Container Background Color When In dark mode***********/
+.changeColor {
+  background-color: black;
+}
+/* ******************************** */
+
+/*************Changing the link itemm color On dark theme**********/
+
+.change li {
+  color: white;
+}
+/*********************************************** */
+
+/* ****** Change Navbar Color In Dark Mode **** */
+.black {
+  background-color: #000;
+}
+/* ************************************* */
+/********************Onchanging placeHolder Theme*********************/
+.white {
+  background-color: #fff;
+}
+.white input {
+  color: black;
+}
+.white input::placeholder {
+  color: #000;
+}
+/* ******************************************** */
